@@ -1,33 +1,35 @@
-# Gradle files
-.gradle/
-build/
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ريان ميديا</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>مرحبًا في ريان ميديا</h1>
+        <button onclick="location.href='https://wa.me/0936168904'">تواصل عبر واتساب</button>
+    </header>
 
-# Local configuration file (sdk path, etc)
-local.properties
+    <main>
+        <section>
+            <h2>خدماتنا</h2>
+            <p>زيادة المتابعين على فيسبوك وإنستجرام.</p>
+            <div>
+                <h3>أسعار المتابعين:</h3>
+                <ul>
+                    <li>متابعين حساب شخصي (عرب): 10 دولار لكل 1000 متابع</li>
+                    <li>متابعين حساب شخصي (أجانب): 5 دولار لكل 1000 متابع</li>
+                </ul>
+            </div>
+        </section>
+    </main>
 
-# Log/OS Files
-*.log
+    <footer>
+        <p>جميع الحقوق محفوظة &copy; 2025 ريان ميديا</p>
+    </footer>
 
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.apk
-output.json
-
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
-
-# Keystore files
-*.jks
-*.keystore
-
-# Google Services (e.g. APIs or Firebase)
-google-services.json
-
-# Android Profiling
-*.hprof
+    <script src="script.js"></script>
+</body>
+</html>
